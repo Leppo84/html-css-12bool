@@ -1,7 +1,25 @@
 /* debug */
 
 [class*="col-"] {
-    background-color: dodgerblue;
+    background-color: #007af4;
     border: 1px solid white;
     color: white;
+    min-height: 40px;
+    line-height: 38px;
+}
+
+.row {
+    text-align: center;
+    align-content: center;
+}
+
+.nest {
+    padding: 10px;
+    min-height: 60px;
+}
+
+.nested {
+    background-color: chartreuse;
+    color: blue;
+    border: 1px solid #007af4;
 }
